@@ -1,4 +1,11 @@
 <section class="cart-show">
+  <div class="cart-empty">
+    <% if enhanced_cart.length === 0 %>
+      <div class="alert alert-info">
+        <strong>Your cart is empty!</strong> You should <a href="/" class="alert-link">go back  to the product page</a>
+      </div>
+    <% end %>
+  </div>
 
   <header class="page-header">
     <h1>My Cart</h1>
