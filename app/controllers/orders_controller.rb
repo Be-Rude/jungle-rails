@@ -1,9 +1,11 @@
 class OrdersController < ApplicationController
 
   def show
-    @order = Order.find(params[:id])
+    @order = Order.find(params[:id]) 
   end
+  helper_method :show
 
+  
   def create
     charge = perform_stripe_charge
     order  = create_order(charge)
