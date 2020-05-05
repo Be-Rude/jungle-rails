@@ -3,12 +3,8 @@ class OrdersController < ApplicationController
   def show
     @order = Order.find(params[:id]) 
   end
+  helper_method :show
 
-  def orders_page
-    line_items = @order.line_items
-    @products = Product.joins(:line_items)
-    puts @product
-  end
   
   def create
     charge = perform_stripe_charge

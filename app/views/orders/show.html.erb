@@ -18,8 +18,8 @@
         </tr>
       </thead>
       <tbody>
-        <% enhanced_cart.each do |item| %>
-          <%= render 'item', product: item[:product], quantity: item[:quantity].to_i %>
+        <% show.line_items.each do |item| %>
+            <%= render 'item', lineItem: item %>
         <% end %>
       </tbody>
       <tfoot>
@@ -28,17 +28,14 @@
             ORDER TOTAL:
           </th>
           <th>
-            <%= humanized_money_with_symbol cart_subtotal_cents / 100.0 %>
+            <%= number_to_currency show.total.cents / 100 %>
           </th>
+          </tr>
       </tfoot>
     </table>
     </div>
 
   
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
-
-      ### <%= @product %>
-      #######<%= @enhanced %>
-      #############<%= enhanced_cart %>
 
 </section>
