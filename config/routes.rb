@@ -5,12 +5,14 @@ Rails.application.routes.draw do
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
 
+
   resource :cart, only: [:show] do
     post   :add_item
     post   :remove_item
   end
 
   resources :orders, only: [:create, :show]
+  
 
   namespace :admin do
     root to: 'dashboard#show'
@@ -22,6 +24,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
+
+  get 'about/' => 'about#about'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
