@@ -8,4 +8,6 @@ class Admin::DashboardController < ApplicationController
     @categories = Category.count(:id)
   end
   helper_method :show
+
 end
+
