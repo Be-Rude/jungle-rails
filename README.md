@@ -1,6 +1,8 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mock mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. This is a project I worked on during my web development bootcamp at Lighthouse Labs. It was a great introduction to working with Rails. I plan to develop it further at a later time to include more features, as it is a great project to experiment and practice with!
+
+Let me know if you have any questions about it! Screenshots below.
 
 
 ## Setup
@@ -43,4 +45,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ## Admin Product Page
 !["Admin product page"](https://github.com/Be-Rude/jungle-rails/blob/master/app/docs/Admin%20panel%20-%20products.png?raw=true)
 ##
+
+Thank you for taking a look at this project! :)
 
