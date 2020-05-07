@@ -26,17 +26,21 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * PostgreSQL 9.x
 * Stripe
 
-## Screenshots
+# Screenshots
 
+## Home Page
 !["Home page"](https://github.com/Be-Rude/jungle-rails/blob/master/app/docs/Home%20page%20-%20All%20products.png?raw=true)
-### Home Page
+##
 
+## Category View
 !["Category view"](https://github.com/Be-Rude/jungle-rails/blob/master/app/docs/Category%20view%20-%20Apparel.png?raw=true)
-### Category View
+##
 
+## Cart
 !["Cart"](https://github.com/Be-Rude/jungle-rails/blob/master/app/docs/Cart%20view.png?raw=true)
-### Cart
+##
 
+## Admin Product Page
 !["Admin product page"](https://github.com/Be-Rude/jungle-rails/blob/master/app/docs/Admin%20panel%20-%20products.png?raw=true)
-### Admin Product Page
+##
 
