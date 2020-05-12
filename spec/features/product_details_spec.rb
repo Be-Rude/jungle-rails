@@ -17,7 +17,7 @@ RSpec.feature "Visitor navigates to product detail page", type: :feature, js: tr
     end
   end
 
-  scenario "They click on product details button, and go to product detail page" do
+  xscenario "They click on product details button, and go to product detail page" do
     # ACT
     visit '/products/1'
 
